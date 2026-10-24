@@ -1,0 +1,15 @@
+# Local operating system and notebook files
+.DS_Store
+.ipynb_checkpoints/
+__pycache__/
+
+# Credentials and local environments
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+
+# Large trip datasets: keep local, outside Git
+Data/driveshare_data/*.parquet
+Data/rideshare_2025_clean.parquet
